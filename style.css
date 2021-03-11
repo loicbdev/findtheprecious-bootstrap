@@ -1,0 +1,17 @@
+#logo {
+    width: 3rem;
+    height: 3rem;
+}
+
+/* navbar */
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.9);
+}
+
+/* carousel */
+
+/* #carouselImg {
+width: 100%;
+height: 50%;
+} */
