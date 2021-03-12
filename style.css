@@ -1,0 +1,610 @@
+.bg-section-dark h2 {
+  color: #fff;
+}
+
+.bg-section-light h2 {
+  color: #000;
+}
+
+/*
+Background
+*/
+
+.bg-section-dark {
+  background: url("../images/bg_dark.png");
+  background-repeat: repeat;
+  padding: 20px;
+}
+
+.bg-section-light {
+  background: url("../images/bg_light.png");
+  background-repeat: repeat;
+  padding: 20px;
+}
+
+.bg-color-orange {
+  background-color: #fe661d;
+}
+
+.bg-color-black {
+  background-color: #000;
+}
+
+.bg-color-white {
+  background-color: #fff;
+}
+
+/*
+text color
+*/
+
+.txt-color-orange {
+  color: #fe661d;
+}
+
+.txt-color-black {
+  color: #000;
+}
+
+.txt-color-white {
+  color: #fff;
+}
+
+.txt-color-signs {
+  color: #787878;
+}
+
+/*
+text sized
+*/
+
+.txt-small {
+  font-size: 12px;
+}
+
+.txt-medium {
+  font-size: 18px;
+}
+
+.txt-xmedium {
+  font-size: 22px;
+}
+
+.txt-large {
+  font-size: 26px;
+}
+
+.txt-xlarge {
+  font-size: 32px;
+}
+
+/*
+Padding
+*/
+
+.pad-10px {
+  padding: 10px;
+}
+
+.pad-15px {
+  padding: 15px;
+}
+
+.pad-20px {
+  padding: 20px;
+}
+
+.pad-30px {
+  padding: 30px;
+}
+
+/***** Skewed functionality *****/
+
+.skewed {
+  display: flex;
+}
+
+.skewed-filter {
+  transform: skew(-20deg); /* SKEW */
+}
+
+.skewed-filter * {
+  display: inline-block;
+  transform: skew(20deg); /* UNSKEW */
+}
+
+/* Fonts */
+
+@font-face {
+  font-family: "Aniron";
+  src: url("../fonts/aniron-font/AnironcBold-PKwr.ttf") format("truetype"),
+    url("../fonts/aniron-font/AnironBold-mL9P.ttf") format("truetype"),
+    url("../fonts/aniron-font/Aniron-7BaP.ttf") format("truetype"),
+    url("../fonts/aniron-font/Anironc-d9DK.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PartyBusiness";
+  src: url("../fonts/party-business-font/PartyBusiness-4B0K.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Tengwar";
+  src: url("../fonts/tengwar_annatar/tngan.ttf") format("truetype"),
+    url("../fonts/tengwar_annatar/tnganb.ttf") format("truetype"),
+    url("../fonts/tengwar_annatar/tnganbi.ttf") format("truetype"),
+    url("../fonts/tengwar_annatar/tngani.ttf") format("truetype");
+}
+
+.font-Aniron {
+  font-family: "Aniron", serif;
+}
+
+.font-PartyBusiness {
+  font-family: "PartyBusiness", serif;
+}
+
+.font-Tengwar {
+  font-family: "Tengwar", serif;
+}
+
+/*
+text styles
+*/
+
+/*
+Panel
+*/
+
+#aboutTheRing .panel-heading {
+  border-radius: 8px 8px 0px 0px;
+  background-color: #fe661d;
+  padding: 8px;
+  color: #ffff;
+  font-family: "Aniron", serif;
+  font-size: 22px;
+}
+
+#aboutTheRing .panel-body {
+  background-color: #dedddb;
+  padding: 15px 30px;
+  color: #000;
+  font-family: "Aniron", serif;
+  font-size: 22px;
+  border-bottom: 3px solid #fe661d;
+  margin-bottom: 25px;
+}
+
+/* navbar */
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Forms */
+
+form {
+  margin: 20px 0px;
+}
+
+/* Footer */
+
+footer {
+  color: #cccccc;
+  background-color: #333333;
+  padding: 20px;
+}
+
+footer a {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer {
+  font-family: "Aniron", serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 34px;
+}
+
+body {
+  background-color: #000;
+}
+
+.container {
+  padding: 22px 15px;
+  background-color: #fff;
+}
+
+/*
+Titles
+*/
+
+h2 {
+  font-family: "Aniron", serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 30px 0px;
+}
+
+h2::after,
+h2::before {
+  content: "x";
+  color: #fe661d;
+  font-family: "Tengwar", serif;
+  font-size: 28px;
+  font-weight: 100;
+  margin: 0px 10px;
+}
+
+h2 > small {
+  font-family: "Aniron", serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Other */
+
+.RewardAmount {
+  width: 80%;
+  position: absolute;
+  top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  color: #000;
+  text-align: center;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-family: "PartyBusiness", serif;
+  font-size: 32px;
+  z-index: 20;
+  box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  line-height: 32px;
+}
+
+.RewardAmount > span {
+  color: #fe661d;
+}
+
+.NameFellowsCard {
+  width: 90%;
+  position: absolute;
+  top: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  color: #000;
+  text-align: center;
+  padding: 5px;
+  font-family: "PartyBusiness", serif;
+  font-size: 62px;
+  color: #fff;
+  opacity: 1;
+  z-index: 21;
+}
+
+.card-img-top {
+  opacity: 0.5;
+}
+
+#carouselExampleControls {
+  margin-bottom: 30px;
+}
+
+.dividerLine {
+  line-height: 40px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.NameFellowsDeadCard {
+  text-decoration: line-through #fe661d;
+}
+
+.RibbonsFellowsDeadCard {
+  width: 90%;
+  position: absolute;
+  top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  color: #000;
+  text-align: center;
+  font-family: "PartyBusiness", serif;
+  font-size: 62px;
+  color: #fe661d;
+  z-index: 20;
+}
+
+#FellowsPills a {
+  font-family: "Aniron", serif;
+  font-size: 18px;
+  color: #fe661d;
+}
+
+#FellowsPills li > a {
+  font-family: "Aniron", serif;
+  font-size: 18px;
+  color: #666666;
+}
+
+#FellowsPills li.active > a {
+  line-height: 25px;
+  color: #fe661d;
+  text-decoration: underline;
+}
+
+#FellowsPills li.active > a::after,
+#FellowsPills li.active > a::before {
+  content: "b";
+  color: #fe661d;
+  font-family: "Tengwar", serif;
+  font-size: 28px;
+  margin: 0px 10px;
+}
+
+#FellowsPills li {
+  margin: 0px 20px;
+}
+
+#fellowsTitleSection {
+  margin-bottom: 20px;
+}
+
+#carouselExampleControls {
+  padding: 0px;
+  margin: 0px;
+}
+
+#capturedSection {
+  padding: 30px;
+}
+.bg-orange {
+  background-color: #fe661d;
+}
+
+.huntersMediaContent {
+  margin: 30px;
+}
+.hunterName {
+  font-family: "PartyBusiness", serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: #fe661d;
+}
+
+.hunterStats {
+  font-family: "PartyBusiness", serif;
+  font-size: 29px;
+}
+
+.hunterStats a {
+  font-family: "PartyBusiness", serif;
+  font-size: inherit;
+  color: #000;
+  text-decoration: underline;
+}
+
+.huntersTitle {
+  font-family: "Aniron", serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.formsTitle,
+.capturedTitle {
+  font-family: "Aniron", serif;
+  font-size: 24px;
+  color: #fff;
+}
+
+.capturedLine {
+  margin: 35px 15px 0px 15px;
+}
+.capturedText {
+  font-family: "PartyBusiness", serif;
+  font-size: 24px;
+  color: #fff;
+}
+
+.center-flex-mordor-box {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.JoinMordorText {
+  font-family: "PartyBusiness", serif;
+  font-size: 26px;
+}
+
+.JoinMordorMoreInfo {
+  font-family: "Aniron", serif;
+  font-size: 26px;
+  color: #fe661d;
+  margin-top: 20px;
+}
+
+.aboutTheRingCirclePicture {
+  width: 350px;
+  height: 350px;
+  display: inline-block;
+  border-radius: 50%;
+  background-image: url("../images/gollum.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.aboutTheRingPanel > .panel-body > .sentenceAboutTheRing {
+  color: #000;
+  font-family: "PartyBusiness", serif;
+  font-size: 32px;
+}
+
+.capabilities-table {
+}
+
+.capabilities-table > thead > tr {
+  border-bottom: 3px solid #5f5b58;
+}
+
+.capabilities-table > tbody td {
+  vertical-align: top;
+  border-top: 1px solid #65605d;
+  padding: 10px 40px;
+  color: #65605d;
+}
+
+.capabilities-table > tbody td {
+  vertical-align: top;
+  border-top: 1px solid #65605d;
+  padding: 10px 40px;
+  color: #65605d;
+}
+
+#aboutTheRingPictureRounded {
+  width: 180px;
+  height: 180px;
+}
+
+.carousel-caption {
+  text-align: left;
+  right: 15%;
+  top: 40%;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.form-group {
+  margin: 30px;
+}
+
+.carousel-caption > h5 {
+  font-family: "PartyBusiness", serif;
+  font-size: 60px;
+}
+
+.carousel-caption > small {
+  font-family: "PartyBusiness", serif;
+  font-size: 34px;
+}
+
+.card {
+  background-color: #13140e;
+}
+
+.card-title {
+  font-family: "PartyBusiness", serif;
+  color: #878787;
+  font-size: 28px;
+}
+
+/* SM : Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 767.98px) {
+  .card {
+    margin-top: 20px;
+  }
+
+  #copyr {
+    text-align: center;
+  }
+
+  /*
+Titles
+*/
+
+  h2 {
+    font-family: "Aniron", serif;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  h2::after,
+  h2::before {
+    content: "x";
+    color: #fe661d;
+    font-family: "Tengwar", serif;
+    font-size: 26px;
+    margin: 0px 10px;
+  }
+
+  h2 > small {
+    font-family: "Aniron", serif;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  .carousel-caption > h5 {
+    font-family: "PartyBusiness", serif;
+    font-size: 20px;
+  }
+
+  .carousel-caption > small {
+    font-family: "PartyBusiness", serif;
+    font-size: 14px;
+  }
+
+  .capabilities-table > * {
+    font-size: 17px !important;
+  }
+
+  .capabilities-table > tbody td {
+    padding: 5px !important;
+  }
+
+  .txt-small {
+    font-size: 7px;
+  }
+
+  .txt-medium {
+    font-size: 12px;
+  }
+
+  .txt-xmedium {
+    font-size: 17px;
+  }
+
+  .txt-large {
+    font-size: 20px;
+  }
+
+  .txt-xlarge {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .carousel-caption > h5 {
+    font-family: "PartyBusiness", serif;
+    font-size: 40px;
+  }
+
+  .carousel-caption > small {
+    font-family: "PartyBusiness", serif;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .dividerLine {
+    display: none;
+  }
+}
