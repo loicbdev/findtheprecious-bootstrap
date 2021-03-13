@@ -11,13 +11,13 @@ Background
 */
 
 .bg-section-dark {
-  background: url("../images/bg_dark.png");
+  background: url("images/bg_dark.png");
   background-repeat: repeat;
   padding: 20px;
 }
 
 .bg-section-light {
-  background: url("../images/bg_light.png");
+  background: url("images/bg_light.png");
   background-repeat: repeat;
   padding: 20px;
 }
@@ -117,24 +117,24 @@ Padding
 
 @font-face {
   font-family: "Aniron";
-  src: url("../fonts/AnironcBold-PKwr.ttf") format("truetype"),
-    url("../fonts/AnironBold-mL9P.ttf") format("truetype"),
-    url("../fonts/Aniron-7BaP.ttf") format("truetype"),
-    url("../fonts/Anironc-d9DK.ttf") format("truetype");
+  src: url("fonts/AnironcBold-PKwr.ttf") format("truetype"),
+    url("fonts/AnironBold-mL9P.ttf") format("truetype"),
+    url("fonts/Aniron-7BaP.ttf") format("truetype"),
+    url("fonts/Anironc-d9DK.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "PartyBusiness";
-  src: url("../fonts/PartyBusiness-4B0K.ttf")
+  src: url("fonts/PartyBusiness-4B0K.ttf")
     format("truetype");
 }
 
 @font-face {
   font-family: "Tengwar";
-  src: url("../fonts/tngan.ttf") format("truetype"),
-    url("../fonts/tnganb.ttf") format("truetype"),
-    url("../fonts/tnganbi.ttf") format("truetype"),
-    url("../fonts/tngani.ttf") format("truetype");
+  src: url("fonts/tngan.ttf") format("truetype"),
+    url("fonts/tnganb.ttf") format("truetype"),
+    url("fonts/tnganbi.ttf") format("truetype"),
+    url("fonts/tngani.ttf") format("truetype");
 }
 
 .font-Aniron {
