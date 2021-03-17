@@ -532,6 +532,10 @@ h2 > small {
     font-size: 5rem;
   }
 
+  .img-eye {
+    padding: 20px;
+  }
+
   /*
 Titles
 */
